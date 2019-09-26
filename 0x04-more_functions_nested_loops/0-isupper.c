@@ -3,14 +3,14 @@
 /**
  * _isupper - more funtions check character is uppercase.
  *
- * @j: character for evaluation.
+ * @c: character for evaluation.
  * Return: 1 upper or 0 lower.
  *
  */
 
-int _isupper(int j)
+int _isupper(int c)
 {
-	if (j >= 65 && j <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
