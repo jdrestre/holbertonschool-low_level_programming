@@ -1,30 +1,31 @@
 #include "holberton.h"
 
 /**
- * line_diagonal - diagonal lines
- * @n: number of times diagonal lines
+ * print_diagonal - print a diagonal of lengeth n..
+ * @n: lenget of line
  *
- * Return: empty
+ * Return: void.
+ *
  */
 void print_diagonal(int n)
 {
-	int x, y;
+	int i;
+	int j;
 
-	if (n <= 0)
+	if (n > 0)
 	{
-		_putchar('\n');
+		for (j = 0; j < n; j++)
+		{
+			for (i = 0; i < j; i++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
+		}
 	}
 	else
 	{
-		for (x = 0; x < n; x++)
-		{
-			for (y = 0; y < x; y++)
-			{
-				_putchar(32);
-			}
-
-			_putchar(92);
-			_putchar('\n');
-		}
+		_putchar('\n');
 	}
 }
