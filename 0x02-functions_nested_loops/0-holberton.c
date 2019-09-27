@@ -1,19 +1,21 @@
 #include "holberton.h"
 
 /**
- * main - prints on screen
- * _putchar write on screen
- * Return: always 0
+ * main - entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char c[] = "Holberton";
+	char l[] = {"Holberton"};
 	int i;
 
-	for (i = 0; i <= 8; i++)
-		_putchar(c[i]);
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(l[i]);
+	}
 	_putchar('\n');
-	return (0);
 
+	return (0);
 }
