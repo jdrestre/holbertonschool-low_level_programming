@@ -9,4 +9,5 @@
 - Task 7. There are only 3 colors, 10 digits, and 7 notes
 - Task 8. I'm federal agent Jack Bauer, and today is the longest day of my life
 - Task 9. Learn your times table
+- Task 10. a + b
 - Task 
