@@ -7,4 +7,5 @@
 - Task 5. Sign
 - Task 6. There is no such thing as absolute value in this world. You can onl...
 - Task 7. There are only 3 colors, 10 digits, and 7 notes
-- Task 
+- Task 8. I'm federal agent Jack Bauer, and today is the longest day of my life
+- Task 9 
