@@ -4,4 +4,5 @@
 - Task 2. 10 x alphabet
 - Task 3. islower
 - Task 4. isalpha
+- Task 5. Sign
 - Task 
