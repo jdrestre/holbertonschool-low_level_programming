@@ -5,4 +5,5 @@
 - Task 3. islower
 - Task 4. isalpha
 - Task 5. Sign
+- Task 6. There is no such thing as absolute value in this world. You can onl...
 - Task 
