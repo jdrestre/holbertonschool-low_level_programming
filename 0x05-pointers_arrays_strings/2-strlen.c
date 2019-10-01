@@ -2,20 +2,20 @@
 
 /**
  * _strlen - the length of a string.
- * @str: int variable
+ * @s: int variable
  *
  * Return: Always 0 (Success)
  */
 
-int _strlen(char *str)
+int _strlen(char *s)
 {
-        int b = 0, c;
+	int conta = 0, i;
 
-        while (*(str + c) != '\0')
-        {
-                c++;
-                b++;
-        }
+	while (*(s + i) != '\0')
+	{
+		i++;
+		conta++;
+	}
 
-        return (b);
+	return (conta);
 }
