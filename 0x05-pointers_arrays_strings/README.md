@@ -5,4 +5,5 @@
 - Task 3. I do not fear computers. I fear the lack of them
 - Task 4. I can only go one way. I've not got a reverse gear
 - Task 5. A good engineer thinks in reverse and asks himself about the...
+- Task 6. Half the lies they tell about me aren't true
 - Task 
