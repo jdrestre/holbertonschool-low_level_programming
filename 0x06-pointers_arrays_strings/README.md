@@ -2,4 +2,5 @@
 - Task 0. strcat
 - Task 1. strncat
 - Task 2. strncpy
-- Task
+- Task 3. strcmp
+- Task 
