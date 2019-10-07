@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * _memset - Entry point
- * @s: char variable
- * @b: char variable
- * @n: int variable
+ * _memset - fill memory with a constant byte
+ * @s: char memory area pointed
+ * @b: char the constant byte
+ * @n: int fills the first n bytes
  *
  * Return: s
  */
