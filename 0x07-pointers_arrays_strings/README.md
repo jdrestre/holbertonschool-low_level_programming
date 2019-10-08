@@ -7,3 +7,4 @@
 - Task 5. strstr
 - Task 6. Chess is mental torture
 - Task 7. The line of life is a ragged diagonal between duty and desire
+- Task 8. Double pointer, double fun
