@@ -5,3 +5,4 @@
 - Task 3. strspn
 - Task 4. strpbrk
 - Task 5. strstr
+- Task 6. Chess is mental torture
