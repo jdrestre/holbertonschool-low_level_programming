@@ -5,3 +5,4 @@
 - Task 3. You mustn't be afraid to dream a little bigger, darling
 - Task 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
 - Task 5. Your subconscious is looking for the dreamer
+- Task 6. Inception. Is it possible?
