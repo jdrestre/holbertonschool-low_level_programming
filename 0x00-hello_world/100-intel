@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -S -fgnu-tm $CFILE -o main.s
+
