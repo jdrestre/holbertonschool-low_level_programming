@@ -18,6 +18,8 @@ Repository to study the following Python topics: Hash tables topic in C. Python 
 File Name|Task Name|Task Description
 ---|---|---
 0-hash_table_create.c|0. >>> ht = {}|Write a function that creates a hash table.
+1-djb2.c|1. djb2|Write a hash function implementing the djb2 algorithm.
+
 
 ---
 ## Author
