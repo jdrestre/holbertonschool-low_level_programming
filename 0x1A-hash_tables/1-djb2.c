@@ -1,3 +1,13 @@
+#include "hash_tables.h"
+
+/**
+ * int hash_djb2 - better distribution of the keys and fewer splits. it also
+ * happens to be a good general hashing function with good distribution.
+ * @str: string to calculate hash
+ *
+ * Return: Calculate hash
+ */
+
 unsigned long int hash_djb2(const unsigned char *str)
 {
 	unsigned long int hash;
