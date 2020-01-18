@@ -1,4 +1,4 @@
-#ifndef HASH_TABLES_h
+#ifndef HASH_TABLES_H
 #define HASH_TABLES_H
 
 
