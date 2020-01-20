@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "hash_tables.h"
 /**
- * hash_table_print - prints a hash table.
+ * hash_table_delete - prints a hash table.
  * @ht: hash table to print
  *
  * Return: void
