@@ -14,10 +14,9 @@ void hash_table_print(const hash_table_t *ht)
 	unsigned long int i;
 	unsigned char flag = 0;
 
-	/**
-	 *if (ht == NULL)
-	 *	return;
-	 */
+	if (ht == NULL)
+		return;
+
 
 	printf("{");
 	for (i = 0; i < ht->size; i++)
