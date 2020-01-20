@@ -23,6 +23,7 @@ File Name|Task Name|Task Description
 3-hash_table_set.c|3. >>> ht['betty'] = 'holberton|Write a function that adds an element to the hash table.
 4-hash_table_get.c|4. >>> ht['betty']|Write a function that retrieves a value associated with a key.
 5-hash_table_print.c|5. >>> print(ht)|Write a function that prints a hash table.
+6-hash_table_delete.c|6. >>> del ht|Write a function that deletes a hash table.
 
 
 ---
