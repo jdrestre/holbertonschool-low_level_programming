@@ -67,7 +67,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	{
 		if (strcmp(tmp->key, key) == 0)
 		{
-			/**free(tmp->value);*/
+			free(tmp->value);
 			tmp->value = value_copy;
 			return (1);
 		}
