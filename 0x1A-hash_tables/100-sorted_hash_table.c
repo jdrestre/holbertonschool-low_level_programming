@@ -124,3 +124,30 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	}
 	return (1);
 }
+
+
+/**
+ * shash_table_get - retrive value associated
+ * @ht: pointer to sorted hash table
+ * @key: ket to get value
+ *
+ * Return: key not matched NULL - other value associated key in ht
+ */
+char *shash_table_get(const shash_table_t *ht, const char *key)
+{
+	shash_node_t *node;
+	unsigned long int index;
+
+	if (ht == NULL || key == NULL || *key == '\0')
+		return (NULL);
+
+	index = key_index((const unsigned char *)key, ht->size);
+	if (index >= ht->size)
+		return (NULL);
+
+	node = ht->shead;
+	while (node != NULL && strcmp(node->key, key) != 0)
+		node = node->snext;
+
+	return ((node == NULL) ? NULL : node->value);
+}
