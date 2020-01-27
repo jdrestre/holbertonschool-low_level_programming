@@ -83,8 +83,8 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	new->key = strdup(key);
 	if (new->key == NULL)
 	{
-		/**free(value_copy);*/
-		/**free(new);*/
+		free(value_copy);
+		free(new);
 		return (0);
 	}
 	new->value = value_copy;
