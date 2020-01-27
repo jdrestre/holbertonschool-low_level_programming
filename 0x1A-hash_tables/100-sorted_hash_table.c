@@ -177,3 +177,29 @@ void shash_table_print(const shash_table_t *ht)
 	}
 	printf("}\n");
 }
+
+
+/**
+ * shash_table_print_rev - print sorted hash table in reverse
+ * @ht: pointer to sorted hash table
+ *
+ * Return: void
+ */
+void shash_table_print_rev(const shash_table_t *ht)
+{
+	shash_node_t *node;
+
+	if (ht == NULL)
+		return;
+
+	node = ht->stail;
+	printf("{");
+	while (node != NULL)
+	{
+		printf("'%s': '%s'", node->key, node->value);
+		node = node->sprev;
+		if (node != NULL)
+			printf(", ");
+	}
+	printf("}\n");
+}
