@@ -151,3 +151,29 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 
 	return ((node == NULL) ? NULL : node->value);
 }
+
+
+/**
+ * shash_table_print - print sorted hash table in order
+ * @ht: pointer to sorted hash table
+ *
+ * Return: void
+ */
+void shash_table_print(const shash_table_t *ht)
+{
+	shash_node_t *node;
+
+	if (ht == NULL)
+		return;
+
+	node = ht->shead;
+	printf("(");
+	while (node != NULL)
+	{
+		printf("'%s': '%s'", node->key, node->value);
+		node = node->snext;
+		if (node != NULL)
+			printf(", ");
+	}
+	printf("}\n");
+}
