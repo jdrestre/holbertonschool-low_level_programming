@@ -4,7 +4,7 @@
 /**
  * print_binary - function that prints the binary representation of a number.
  *
- * @b: pointing to a string
+ * @n: pointing to a string
  *
  * Return: the converted number, or 0 if
  */
