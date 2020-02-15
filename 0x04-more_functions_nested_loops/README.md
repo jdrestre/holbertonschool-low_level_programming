@@ -10,3 +10,4 @@
 - Task 8. You are so much sunshine in every square inch
 - Task 9. Fizz-Buzz
 - Task 10. Triangles
+- Task 12. Numbers have life; they're not just symbols on paper
