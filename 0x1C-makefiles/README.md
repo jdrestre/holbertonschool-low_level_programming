@@ -17,7 +17,15 @@ Repository to study the following Lenguaje C: MakeFiles sintax
 ---
 File Name|Task Name|Task Description
 ---|---|---
-[0-Makefile](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles)|0. make -f 0-Makefile|Create your first Makefile.
+[0-Makefile](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles/0-Makefile)|0. make -f 0-Makefile|Create your first Makefile.
+[1-Makefile](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles/1-Makefile)|1. make -f 1-Makefile|More requeriments, rule all and variables CC(compiler) and SRC(.c files)
+[2-Makefile](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles/2-Makefile)|2. make -f 2-Makefile|More requeriments, rule all and variables CC(compiler), SRC(.c files) OBJ(.o files) and NAME(name excecutable)
+[3-Makefile](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles/3-Makefile)|3. make -f 3-Makefile|More requeriments: Rules all(build excecutables, clean(deletes temp files), oclean(del obj files), fclean(emacs temp, excecutable, obj files) and re(recompilation all). Variables CC(compiler), SRC(.c files) OBJ(.o files), NAME(name excecutable) RE(delete files program)
+[4-Makefile](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles/4-Makefile)|4. A complete Makefile|More requeriments: Rules all(build excecutables, clean(deletes temp files), oclean(del obj files), fclean(emacs temp, excecutable, obj files) and re(recompilation all). Variables CC(compiler), SRC(.c files) OBJ(.o files), NAME(name excecutable) RE(delete files program) CFLAGS(favorite comiler flags)
+[5-island_perimeter.py](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles/5-island_perimeter.py)|5. Island Perimeter|Create a function def island_perimeter(grid): that returns the perimeter of the island described in grid
+[100-Makefile](https://github.com/jdrestre/holbertonschool-low_level_programming/tree/master/0x1C-makefiles/100-Makefile)|6. make -f 100-Makefile|More requeriments: Rules all(build excecutables, clean(deletes temp files), oclean(del obj files), fclean(emacs temp, excecutable, obj files) and re(recompilation all). Variables CC(compiler), SRC(.c files) OBJ(.o files), NAME(name excecutable) RE(delete files program) CFLAGS(favorite comiler flags) not compile files .h and change {} ()
+
+
 
 ---
 ## Author
