@@ -25,6 +25,17 @@ File Name|Task Name|Task Description
 [**`3-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/3-O)|3. Big O #1|What is the `space complexity` (worst case) of an iterative linear search algorithm in an array of size n?
 [**`4-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/4-O)|4. Big O #2|What is the `time complexity` (worst case) of a binary search in an array of size n?
 [**`5-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/5-O)|5. Big O #3|What is the `space complexity` (worst case) of a binary search in an array of size n?
+[**`6-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/6-O)|6. Big O #4|What is the space complexity of this function / algorithm? ``` int **allocate_map(int n, int m)
+{
+     int **map;
+
+     map = malloc(sizeof(int *) * n);
+     for (size_t i = 0; i < n; i++)
+     {
+          map[i] = malloc(sizeof(int) * m);
+     }
+     return (map);
+} ```
 
 ---
 
