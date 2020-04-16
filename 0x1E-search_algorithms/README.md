@@ -18,9 +18,10 @@ Repository to study the following Topic: Search algorithm and Space complexity
 
 ---
 File Name|Task Name|Task Description
----|---|---
+:---:|---|---
 [**`0-linear.c`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/0-linear.c)|0. Linear search|Write a function that searches for a value in an array of integers using the [Linear search algorithm](https://en.wikipedia.org/wiki/Linear_search)
 [**`1-binary.c`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/1-binary.c)|1. Binary search|Write a function that searches for a value in a sorted array of integers using the [Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+[**`2-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/2-O)|2. Big O #0|What is the time complexity (worst case) of a linear search in an array of size n?
 
 ---
 
