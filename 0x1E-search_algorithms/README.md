@@ -23,7 +23,8 @@ File Name|Task Name|Task Description
 [**`1-binary.c`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/1-binary.c)|1. Binary search|Write a function that searches for a value in a sorted array of integers using the [Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 [**`2-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/2-O)|2. Big O #0|What is the `time complexity` (worst case) of a linear search in an array of size n?
 [**`3-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/3-O)|3. Big O #1|What is the `space complexity` (worst case) of an iterative linear search algorithm in an array of size n?
-[**`4-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/4-O)|4. Big O #2|What is the time complexity (worst case) of a binary search in an array of size n?
+[**`4-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/4-O)|4. Big O #2|What is the `time complexity` (worst case) of a binary search in an array of size n?
+[**`5-O`**](https://github.com/jdrestre/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/5-O)|5. Big O #3|What is the `space complexity` (worst case) of a binary search in an array of size n?
 
 ---
 
